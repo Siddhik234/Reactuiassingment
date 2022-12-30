@@ -4,6 +4,7 @@ import Displaycard from './Displaycard'
 
 const Displayitem = ({data}) => {
   return (
+    
     <div className='div1'> 
       <table>
         <tr>
