@@ -2,11 +2,13 @@ import React from 'react'
 import "./display.css"
 
 const Displaycard = ({Name,Office,Position}) => {
-  return (
+    
+  return ( 
+
         <tr>
         <td> {Name} </td> 
-        <td> {Office} </td>
         <td> {Position} </td>
+        <td> {Office} </td>
         </tr>
   )
 }
